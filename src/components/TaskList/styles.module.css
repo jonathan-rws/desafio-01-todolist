@@ -1,0 +1,55 @@
+.container{
+  width: 100%;
+  margin-top: 4rem;
+}
+
+.headerList{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+}
+
+.createdTasks strong{
+  font-size: 0.875rem;
+  color: var(--blue);
+}
+
+.counter{
+  
+  margin-left: 0.5rem;
+  background: var(--gray-400) ;
+  border-radius: 999px;
+  padding: 2px 8px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--gray-100);
+}
+
+.finishedTasks strong{
+  font-size: 0.875rem;
+  color: var(--purple);
+
+}
+
+.emptyAlert{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-top: 1px solid var(--gray-400);
+  border-radius: 8px;
+  padding:  4rem 0 4rem;
+}
+.emptyAlert img{
+  width: 3.5rem;
+  height: 3.5rem;
+  
+}
+
+.emptyAlert img{
+  margin-bottom: 1rem;
+}
+
+.emptyAlert strong, span{
+line-height: 22px;
+}
